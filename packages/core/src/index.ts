@@ -69,3 +69,5 @@ export * from "./types";
 export * from "./utils";
 export * from "./vertical-navigation";
 export * from "./viewport";
+
+import "./registerClassNameInjection.js";

@@ -10,7 +10,8 @@
   "bugs": "https://github.com/jpmorganchase/salt-ds/issues",
   "main": "src/index.ts",
   "sideEffects": [
-    "*.css"
+    "*.css",
+    "./src/registerClassNameInjection.ts"
   ],
   "dependencies": {
     "@floating-ui/react": "^0.26.28",
