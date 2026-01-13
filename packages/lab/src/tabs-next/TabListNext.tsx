@@ -156,7 +156,10 @@ export const TabListNext = forwardRef<HTMLDivElement, TabListNextProps>(
     useEffect(() => {
       const handleFocus = () => {
         if (!tabstripRef.current) return;
-        handleTabRemoval();
+
+        setTimeout(() => {
+          handleTabRemoval();
+        }, 66);
       };
 
       targetWindow?.document.addEventListener("focusout", handleFocus, true);
