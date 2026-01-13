@@ -159,7 +159,7 @@ export const TabListNext = forwardRef<HTMLDivElement, TabListNextProps>(
 
         setTimeout(() => {
           handleTabRemoval();
-        }, 66);
+        });
       };
 
       targetWindow?.document.addEventListener("focusout", handleFocus, true);
